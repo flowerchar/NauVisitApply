@@ -19,6 +19,9 @@ public class Visitor implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    @ApiModelProperty("主键ID")
+    private Long id;
+
     @ApiModelProperty("到访部门")
     private String VisitDepartment;
 
