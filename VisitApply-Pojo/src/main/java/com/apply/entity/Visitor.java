@@ -19,36 +19,36 @@ public class Visitor implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @ApiModelProperty("主键ID")
+    @ApiModelProperty(value = "主键ID")
     private Long id;
 
-    @ApiModelProperty("到访部门")
-    private String VisitDepartment;
+    @ApiModelProperty(value = "到访部门")
+    private String visitDepartment;
 
     @ApiModelProperty("审核人工号")
-    private Long AuditLaborId;
+    private String auditLaborId;
 
     @ApiModelProperty("校内对接人")
-    private String CampusContactPerson;
+    private String campusContactPerson;
 
     @ApiModelProperty("访客姓名")
-    private String VisitorName;
+    private String visitorName;
 
     @ApiModelProperty("证件号码")
-    private String CardNumber;
+    private String cardNumber;
 
     @ApiModelProperty("访客电话")
-    private Integer VisitorPhone;
+    private Integer visitorPhone;
 
     @ApiModelProperty("访客单位")
-    private String VisitorCompany;
+    private String visitorCompany;
 
     @ApiModelProperty("车牌号")
-    private String CarNumber;
+    private String carNumber;
 
     @ApiModelProperty("到访日期")
-    private LocalDate VisitDate;
+    private LocalDate visitDate;
 
     @ApiModelProperty("到访事由")
-    private String VisitReason;
+    private String visitReason;
 }
